@@ -9,6 +9,9 @@ while i != j:
         print('你输入的数字大了，继续努力！')
     i = int(input('请输入两位整数:'))
     k = k + 1
+    if k == 6:
+        print('Game Over!')
+        break
 else:
     print('你输入的数字正确，你好聪明！')
     print('你一共猜了',k,'次！')
