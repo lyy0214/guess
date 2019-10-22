@@ -1,6 +1,6 @@
 import random    #导入random模块
 i = int(input('请输入1个两位整数:'))
-j = random.randint(10, 99)
+j = random.randint(1, 99)
 k = 1
 while i != j:
     if i < j:
